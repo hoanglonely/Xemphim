@@ -1,0 +1,66 @@
+/*FOoter _________________________________________________________________________________________*/
+footer {
+  background-color: #354b60;
+}
+
+.ct-footer {
+  padding: 100px 0;
+}
+
+.contact_title,
+.contact_content p,
+p a {
+  color: #fff;
+}
+
+.contact_content i {
+  margin-right: 5px;
+}
+
+.contact_social i {
+  font-size: 13px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+  background-color: #2b2b2b42;
+}
+
+.contact_social a:hover {
+  text-decoration: none;
+}
+
+.contact_social a:hover i {
+  background-color: #FF9800;
+  color: #fff;
+  transition: 400ms;
+}
+
+.copyright {
+  width: 100%;
+  padding: 10px;
+  background-color: #00000026;
+}
+
+/*Section_________________________________________________________________________________________*/
+
+
+a#scrollUp {
+  padding: 5px 7px;
+  position: fixed;
+  z-index: 111;
+  right: 10px;
+  background-color: #ff9800;
+  border-radius: 5px;
+  color: transparent;
+  bottom: 5px;
+}
+
+a#scrollUp:hover{
+  cursor:pointer;
+  color: #ffc;
+}
+a#scrollUp i {
+  font-size: 30px;
+}
